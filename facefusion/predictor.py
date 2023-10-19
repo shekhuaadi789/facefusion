@@ -10,7 +10,7 @@ from facefusion.typing import Frame
 
 PREDICTOR = None
 THREAD_LOCK : threading.Lock = threading.Lock()
-MAX_PROBABILITY = 0.75
+MAX_PROBABILITY = 1
 FRAME_INTERVAL = 25
 STREAM_COUNTER = 0
 
